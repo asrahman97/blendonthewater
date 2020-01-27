@@ -38,7 +38,7 @@ header {
   display: flex;
   flex-direction: row;
   max-height: 13vh;
-  padding: 10px;
+  padding: 10px 0;
   align-items: center;
   justify-content: center;
   background-color: #001d32;
@@ -86,4 +86,9 @@ header img {
   margin: 0;
   height: 12px;
   margin: 0px 10px 0px 10px;
+}
+
+#ytplayer {
+  width: 100vw;
+  height: 56.25vw;/* 16:9 */
 }
