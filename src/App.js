@@ -3,6 +3,7 @@ import './App.css';
 import About from './components/about'
 import InfoBar from './components/infoBar'
 import Gallery from './components/gallery'
+import GalleryGrid from './components/galleryGrid'
 
 class App extends React.Component {
 
@@ -21,6 +22,7 @@ class App extends React.Component {
         <InfoBar />
         <About />
         <Gallery />
+        <GalleryGrid />
       
         
       </div>
