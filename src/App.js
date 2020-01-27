@@ -4,7 +4,10 @@ import About from './components/about'
 import InfoBar from './components/infoBar'
 import Gallery from './components/gallery'
 import GalleryGrid from './components/galleryGrid'
+import Map from './components/Map'
 import Header from './components/Header'
+import Menu from './components/Menu'
+import Footer from './components/footer'
 
 class App extends React.Component {
 
@@ -27,12 +30,12 @@ class App extends React.Component {
             frameborder="0">
           </iframe>
           <div id="video-text">
-            <h1>A place to eat, meet and greet.</h1>
+            <h1>Innovative Solutions to boost your creative projects</h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
             <a href='#reservations'><button>RESERVATIONS</button></a>
           </div>
         </div>
-        {/* <Menu /> */}
+        <Menu />
         <InfoBar />
         <About />
         <Gallery />
@@ -45,7 +48,8 @@ class App extends React.Component {
             4540 Center Blvd. Long Island City, NY, 11101 <br />
           </p>
         </div>
-        {/* <Map /> */}
+        <Map />
+        <Footer />
       </div>
     );
   }
