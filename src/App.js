@@ -1,5 +1,9 @@
 import React from 'react';
 import './App.css';
+import About from './components/about'
+import InfoBar from './components/infoBar'
+import Gallery from './components/gallery'
+import GalleryGrid from './components/galleryGrid'
 import Map from './components/Map'
 import Header from './components/Header'
 
@@ -29,6 +33,10 @@ class App extends React.Component {
             <a href = '#reservations'><button>RESERVATIONS</button></a>
           </div>
         </div>
+        <InfoBar />
+        <About />
+        <Gallery />
+        <GalleryGrid />
         <div id = "location" >
           <h2>LOCATION</h2>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>

@@ -2,11 +2,13 @@ body {
   text-align: center;
   background: linear-gradient(#001d32, #000000);
 }
+
 .App {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
+
 .map {
   width: 100vw;
   height: 300px;
@@ -15,25 +17,30 @@ body {
   filter: brightness(50%);
   transition: filter 0.2s linear;
 }
+
 .map:hover {
   filter: brightness(100%);
 }
+
 #location {
   width: 50vw;
   font-family: Muli, sans-serif;
   margin: 50px;
 }
+
 #location h2 {
   color:#f7540b;
   font-size: 24px;
   font-weight: bold;
   line-height: 1.25;
 }
+
 #location p {
   color: #bebebf;
   font-size: 14px;
   line-height: 1.43;
 }
+
 header {
   display: flex;
   flex-direction: row;
@@ -92,9 +99,11 @@ header img {
   width: 100vw;
   height: 56.25vw;/* 16:9 */
 }
+
 #video {
   position: relative;
 }
+
 #video-text {
   position: absolute;
   z-index: 1;
@@ -105,17 +114,20 @@ header img {
   max-height: 80%;
   text-align: left;
 }
+
 #video-text h1 {
   font-family: "Times New Roman", serif;
   font-size: 42px;
   line-height: 45px;
 }
+
 #video-text p {
   font-family: "Muli",sans-serif;
   font-size:18px;
   font-weight: 300;
   line-height: 30px;
 }
+
 #video-text button {
   background-color: #ffa400;
   color: white;
@@ -129,6 +141,192 @@ header img {
   margin:10px 0;
   transition: filter 0.2s linear;
 }
+
 button:hover {
   filter: saturate(130%);
 }
+
+/* INFO BAR */
+
+.infobar {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  background-color: #4c0610;
+  box-shadow: 0 9px 18px 0 black;
+  padding: 60px;
+  margin: 0 auto;
+}
+
+.infobar-hours {
+  border-right: 2px solid #ffa400;
+  border-left: 2px solid #ffa400;
+  padding: 0 7% 0 7%;
+}
+
+.infobar-h3 {
+  font-family: Muli;
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.11;
+  letter-spacing: normal;
+  text-align: center;
+  color: white;
+}
+
+.infobar-pn {
+  font-family: Muli-Bold;
+  font-size: 24px;
+}
+
+.infobar-title {
+  font-family: Muli;
+  font-size: 24px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.25;
+  letter-spacing: normal;
+  text-align: center;
+  color: #64b5bf;
+}
+
+.icon-fa {
+  color: #64b5bf;
+  font-size: 1.5rem;
+  
+}
+
+/* ABOUT */
+
+.about-aside {
+  font-family: Muli;
+  font-size: 12px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.67;
+  letter-spacing: normal;
+  text-align: center;
+  color: #8b8b8b;
+  padding-bottom: 20px;
+}
+
+.about-title {
+  font-family: TimesNewRomanPS-MT;
+  font-size: 36px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.83;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffa400;
+  width: 60%;
+  margin: 0 auto;
+  padding-bottom: 20px;
+}
+
+.about-body {
+  color: #bebebf;
+  font-family: Muli;
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.11;
+  letter-spacing: normal;
+  text-align: center;
+  width: 60%;
+  margin: 0 auto;
+  padding-bottom: 20px;
+}
+
+.about-section {
+  padding: 60px 0px;
+}
+
+/* GALLERY  */
+
+.gallery-section {
+  background-color: #64b5bf;
+  padding: 40px 20px;
+}
+
+.gallery-title {
+  font-family: TimesNewRomanPS-MT;
+  font-size: 36px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.83;
+  letter-spacing: normal;
+  text-align: center;
+  color: #4c0610;
+}
+
+.gallery-body {
+  font-family: Muli;
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.11;
+  letter-spacing: normal;
+  text-align: center;
+  color: #464646;
+  width: 60%;
+  margin: 0 auto;
+}
+
+/* GALLERY GRID */
+
+.galleryGrid-section {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+}
+
+.div1 {
+  grid-area: 1 / 1 / 3 / 2;
+}
+.div2 {
+  grid-area: 3 / 1 / 4 / 2;
+}
+.div3 {
+  grid-area: 4 / 1 / 5 / 2;
+}
+.div4 {
+  grid-area: 1 / 2 / 2 / 3;
+}
+.div5 {
+  grid-area: 2 / 2 / 3 / 3;
+}
+.div6 {
+  grid-area: 3 / 2 / 4 / 3;
+}
+.div7 {
+  grid-area: 4 / 2 / 5 / 3;
+}
+.div8 {
+  grid-area: 1 / 3 / 2 / 4;
+}
+.div9 {
+  grid-area: 2 / 3 / 4 / 4;
+}
+.div10 {
+  grid-area: 4 / 3 / 5 / 4;
+}
+
+.gallery-img {
+  width: 100%;
+}
+
+.grid-wrapper {
+  padding: 60px 60px;
+  background-color: #4c0610;
+  box-shadow: 0 9px 18px 0 black;
