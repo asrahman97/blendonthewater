@@ -11,7 +11,7 @@ const dresscode = <FontAwesomeIcon icon={faTshirt} />;
 class InfoBar extends Component {
   render() {
     return (
-      <div className="infobar" id="info">
+      <div className="infobar">
         <div className="infobar-address">
           <span className="icon-fa">{contact}</span>
           <h3 className="infobar-title">Contact Us</h3>
