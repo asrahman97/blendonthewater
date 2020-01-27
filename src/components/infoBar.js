@@ -15,7 +15,7 @@ class InfoBar extends Component {
             718-606-9851
           </h3>
         </div>
-        <div className="infobar-hours">
+        <div className="infobar-hours" id='hours'>
           {/* <img src={Hours} alt="" className="info-image" /> */}
           <h3 className='infobar-title'>Hours</h3>
           <h3 className="infobar-h3">BRUNCH</h3>
