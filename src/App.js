@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import Map from './components/Map'
 
 class App extends React.Component {
 
@@ -14,7 +15,10 @@ class App extends React.Component {
   render() {
     return (
       <div className="App" >
-
+        <div id = "location" >
+          <h2>Location</h2>
+        </div>
+        <Map />
       </div>
     );
   }

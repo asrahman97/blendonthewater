@@ -1,0 +1,16 @@
+body {
+  text-align: center;
+}
+.map {
+  width: 100vw;
+  height: 300px;
+  border: none;
+  position: absolute;
+  z-index: 0;
+  filter: brightness(50%);
+  transition: filter 0.2s linear;
+}
+.map:hover {
+  filter: brightness(100%);
+}
+#location
