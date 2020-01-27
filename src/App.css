@@ -95,6 +95,11 @@ header img {
   padding: 1% 1% 0% 0%;
 }
 
+.social-bottom{
+  position: static;
+  justify-content: center;
+}
+
 .social > img {
   opacity: 76%;
   width: auto;
@@ -160,7 +165,7 @@ header img {
 .leaf2 {
   position: absolute;
   right: 0;
-  opacity: 30%; 
+  opacity: 30%;
   height: auto;
   width: 10vw;
   transform: rotate(-10deg);
@@ -169,7 +174,7 @@ header img {
 .leaf3 {
   position: absolute;
   left: 0;
-  opacity: 30%; 
+  opacity: 30%;
   height: auto;
   width: 18vw;
   transform: rotate(32deg);
@@ -182,7 +187,7 @@ header img {
   grid-column-gap: 0px;
   grid-row-gap: 0px;
   justify-items: center;
-  align-items: center;  
+  align-items: center;
   color: #f3d1c8;
   margin-top: -2.5%;
 }
@@ -319,7 +324,7 @@ button:hover {
 .icon-fa {
   color: #64b5bf;
   font-size: 1.5rem;
-  
+
 }
 
 /* ABOUT */
@@ -453,4 +458,23 @@ button:hover {
   padding: 60px 60px;
   background-color: #4c0610;
   box-shadow: 0 9px 18px 0 black;
+}
+footer {
+  color:white;
+  font-family: Muli, sans-serif;
+  width: 30%;
+  margin-bottom: 20px;
+}
+footer h1{
+  font-size: 20px;
+}
+footer p {
+  font-size: 10px;
+}
+footer button {
+  width: 120px;
+  height: 35px;
+  border: none;
+  color: inherit;
+  background-color: #64b5bf;
 }
