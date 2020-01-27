@@ -21,8 +21,13 @@ class App extends React.Component {
           <iframe
             id="ytplayer"
             src="https://www.youtube.com/embed/videoseries?controls=0&amp;list=PL9CSmGF_Y-0bnYfzXYKZ42f-HY2lRAWLd&autoplay=1&loop=1&controls=0&mute=1"
-            frameborder="0"
-          ></iframe>
+            frameborder="0">
+          </iframe>
+          <div id = "video-text">
+            <h1>Innovative Solutions to boost your creative projects</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+            <a href = '#reservations'><button>RESERVATIONS</button></a>
+          </div>
         </div>
         <div id = "location" >
           <h2>LOCATION</h2>

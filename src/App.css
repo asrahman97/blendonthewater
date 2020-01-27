@@ -92,3 +92,43 @@ header img {
   width: 100vw;
   height: 56.25vw;/* 16:9 */
 }
+#video {
+  position: relative;
+}
+#video-text {
+  position: absolute;
+  z-index: 1;
+  color: white;
+  top:20%;
+  left:10%;
+  width: 40%;
+  max-height: 80%;
+  text-align: left;
+}
+#video-text h1 {
+  font-family: "Times New Roman", serif;
+  font-size: 42px;
+  line-height: 45px;
+}
+#video-text p {
+  font-family: "Muli",sans-serif;
+  font-size:18px;
+  font-weight: 300;
+  line-height: 30px;
+}
+#video-text button {
+  background-color: #ffa400;
+  color: white;
+  opacity: 87%;
+  font-size: 12px;
+  width:200px;
+  height:40px;
+  border:1px solid white;
+  border-radius:14px;
+  font-family: Muli,sans-serif;
+  margin:10px 0;
+  transition: filter 0.2s linear;
+}
+button:hover {
+  filter: saturate(130%);
+}
