@@ -6,6 +6,7 @@ import Gallery from './components/gallery'
 import GalleryGrid from './components/galleryGrid'
 import Map from './components/Map'
 import Header from './components/Header'
+import Menu from './components/Menu'
 
 class App extends React.Component {
 
@@ -33,6 +34,7 @@ class App extends React.Component {
             <a href = '#reservations'><button>RESERVATIONS</button></a>
           </div>
         </div>
+        <Menu />
         <InfoBar />
         <About />
         <Gallery />
