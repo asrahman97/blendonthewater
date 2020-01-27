@@ -58,7 +58,7 @@ header img {
 .menu {
   background: rgb(0,29,50);
   background-image: linear-gradient(to bottom, #001c32, #01192d, #021728, #011323, #00101e);
-  min-height: 1400px;
+  padding-bottom: 5%;
   display: flex;
   flex-direction: column;
 }
@@ -100,6 +100,33 @@ header img {
   font-weight: bold;
   letter-spacing: 1.26px;
   font-family: Muli, sans-serif;
+}
+
+.leaf1 {
+  height: auto;
+  width: 13vw;
+  opacity: 30%;
+  transform: rotate(60deg);
+  position: absolute;
+  left: 0;
+}
+
+.leaf2 {
+  position: absolute;
+  right: 0;
+  opacity: 30%; 
+  height: auto;
+  width: 10vw;
+  transform: rotate(-15deg);
+}
+
+.leaf3 {
+  position: absolute;
+  left: 0;
+  opacity: 30%; 
+  height: auto;
+  width: 18vw;
+  transform: rotate(32deg);
 }
 
 .midday-menu-grid-wrapper {
