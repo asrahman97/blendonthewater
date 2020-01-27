@@ -44,6 +44,7 @@ header {
   background-color: #001d32;
   font-family: 'Times New Roman', Times, serif;
   padding-top: 12px;
+  width: 100vw;
 }
 
 .header-section {
@@ -64,8 +65,8 @@ header h2 {
 }
 
 header img {
-  height: 9vh;
-  width: auto;
+  width: 14vw;
+  height:auto;
   margin: 0px 30px 0px 40px;
 }
 
