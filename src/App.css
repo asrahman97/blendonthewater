@@ -590,7 +590,6 @@ footer button {
 }
 
 @media only screen 
-and (min-device-width : 360px) 
 and (max-device-width : 900px) {
   #video-text {
     background-color: rgba(0, 0, 0, 0.7);
