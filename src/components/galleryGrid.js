@@ -17,16 +17,75 @@ class GalleryGrid extends Component {
       <div className='grid-wrapper'>
        
         <div className="galleryGrid-section">
-          <div className="div1"> <img src={div1} className='gallery-img' /></div>
-          <div className="div2"> <img src={div2} className='gallery-img'/></div>
-          <div className="div3"> <img src={div3} className='gallery-img'/></div>
-          <div className="div4"> <img src={div4} className='gallery-img'/></div>
-          <div className="div5"> <img src={div5} className='gallery-img'/></div>
-          <div className="div6"> <img src={div6} className='gallery-img'/></div>
-          <div className="div7"> <img src={div7} className='gallery-img'/></div>
-          <div className="div8"> <img src={div8} className='gallery-img'/></div>
-          <div className="div9"> <img src={div9} className='gallery-img'/></div>
-          <div className="div10"> <img src={div10} className='gallery-img'/></div>
+          <div className="div1">
+            <img src={div1} className='gallery-img' />
+            <div class="gallery-text">
+              <div class="text">Project Title</div>
+              <div class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </div>
+            </div>
+          </div>
+          <div className="div2">
+            <img src={div2} className='gallery-img' />
+            <div class="gallery-text">
+              <div class="text">Project Title</div>
+              <div class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </div>
+            </div>
+          </div>
+          <div className="div3">
+            <img src={div3} className='gallery-img' />
+            <div class="gallery-text">
+              <div class="text">Project Title</div>
+              <div class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </div>
+            </div>
+          </div>
+          <div className="div4">
+            <img src={div4} className='gallery-img' />
+            <div class="gallery-text">
+              <div class="text">Project Title</div>
+              <div class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </div>
+            </div>
+          </div>
+          <div className="div5">
+            <img src={div5} className='gallery-img' />
+            <div class="gallery-text">
+              <div class="text">Project Title</div>
+              <div class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </div>
+            </div>
+          </div>
+          <div className="div6">
+            <img src={div6} className='gallery-img' />
+            <div class="gallery-text">
+              <div class="text">Project Title</div>
+              <div class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </div>
+            </div>
+          </div>
+          <div className="div7">
+            <img src={div7} className='gallery-img' />
+            <div class="gallery-text">
+              <div class="text">Project Title</div>
+              <div class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </div>
+            </div>
+          </div>
+          <div className="div8">
+            <img src={div8} className='gallery-img' />
+            <div class="gallery-text">
+              <div class="text">Project Title</div>
+              <div class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </div>
+            </div>
+          </div>
+          <div className="div9">
+            <img src={div9} className='gallery-img' />
+            <div class="gallery-text">
+              <div class="text">Project Title</div>
+              <div class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </div>
+            </div>
+          </div>
+          <div className="div10">
+            <img src={div10} className='gallery-img' /><div class="gallery-text">
+              <div class="text">Project Title</div>
+              <div class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </div>
+            </div>
+          </div>
         </div>
       </div>
     );
