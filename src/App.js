@@ -7,6 +7,7 @@ import GalleryGrid from './components/galleryGrid'
 import Map from './components/Map'
 import Header from './components/Header'
 import Menu from './components/Menu'
+import Footer from './components/footer'
 
 class App extends React.Component {
 
@@ -48,6 +49,7 @@ class App extends React.Component {
           </p>
         </div>
         <Map />
+        <Footer />
       </div>
     );
   }
