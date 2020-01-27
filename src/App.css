@@ -720,4 +720,8 @@ and (max-device-width : 900px) {
   .grid-wrapper {
     display: none;
   }
+
+  #ytplayer {
+    pointer-events: auto;
+  }
 }
