@@ -1,0 +1,52 @@
+header {
+  display: flex;
+  flex-direction: row;
+  max-height: 13vh;
+  padding: 10px;
+  align-items: center;
+  justify-content: center;
+  background-color: #001d32;
+  font-family: 'Times New Roman', Times, serif;
+  padding-top: 12px;
+}
+
+.header-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  min-width: 30%;
+  margin-top: 2%;
+}
+
+header h2 {
+  opacity: 76%;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+header img {
+  height: 9vh;
+  width: auto;
+  margin: 0px 30px 0px 40px;
+}
+
+.social {
+  display: flex;
+  flex-direction: row;
+  min-height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 1% 1% 0% 0%;
+}
+
+.social > img {
+  opacity: 76%;
+  width: auto;
+  margin: 0;
+  height: 12px;
+  margin: 0px 10px 0px 10px;
+}
