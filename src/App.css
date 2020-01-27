@@ -577,6 +577,7 @@ footer {
 }
 footer h1{
   font-size: 20px;
+  color: #ffa400;
 }
 footer p {
   font-size: 10px;
@@ -690,8 +691,71 @@ and (max-device-width : 800px) {
     width: 35vw;
   }
 
+  .infobar {
+    background-color: transparent;
+    box-shadow: none;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .infobar-hours {
+    border-right: none;
+    border-left: none;
+    max-width: 70%;
+    background-color: #4c0610;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 5px 11px 0 black;
+  }
+
+  #info {
+    padding: 20px;
+    margin-bottom: -30px;
+  }
+
+  .infobar-address {
+    border-right: none;
+    border-left: none;
+    max-width: 70%;
+    background-color: #4c0610;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    margin-bottom: 10%;
+    align-self: flex-end;
+    padding: 0 7% 0 7%;
+    box-shadow: 0 5px 11px 0 black;
+  }
+
+  #address-info {
+    max-width: 90%;
+  }
+
+  .infobar-dresscode {
+    border-right: none;
+    border-left: none;
+    max-width: 70%;
+    background-color: #4c0610;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    margin-top: 10%;
+    align-self: flex-end;
+    padding: 0 7% 0 7%;
+    box-shadow: 0 5px 11px 0 black;
+  }
+
+  .logo-name-wrapper {
+    border-right: 2px solid #ffa400;
+    padding-right: 6%;
+    margin-right: 6%;
+    max-height: 50%;
+  }
+
   .infobar-title {
     font-size: 18px;
+    margin: 0;
   }
 
   .infobar-h3 {
@@ -700,5 +764,63 @@ and (max-device-width : 800px) {
 
   .infobar-pn {
     font-size: 14px;
+  }
+
+  .about-title {
+    font-size: 25px;
+    line-height: 1.05;
+    width: 80%;
+  }
+
+  .about-body {
+    width: 90%;
+    line-height: 1.2;
+  }
+
+  .gallery-title {
+    font-size: 24px;
+  }
+  
+  .gallery-body {
+    width: 90%;
+  }
+
+  #location {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #location h2 {
+    font-size: 30px;
+    margin-top: -10px;
+  }
+
+  #location p {
+    width: 80%;
+    text-align: center;
+    font-size: 16px;
+  }
+
+  footer {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10%;
+  }
+
+  #reservations h1 {
+    font-size: 24px;
+  }
+
+  #reservations p {
+    font-size: 14px;
+    line-height: 1.5;
+  }
+
+  footer button {
+    margin-bottom: 40px;
   }
 }
