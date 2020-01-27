@@ -83,6 +83,7 @@ header a {
   text-decoration: none;
 }
 
+
 header img {
   height: auto;
   width: 13vw;
@@ -571,7 +572,7 @@ button:hover {
 }
 footer {
   color:white;
-  font-family: Muli, sans-serif;
+  font-family: "Muli", sans-serif;
   width: 30%;
   margin-bottom: 20px;
 }
@@ -589,8 +590,33 @@ footer button {
   background-color: #64b5bf;
 }
 
-@media only screen 
-and (min-device-width : 100px) 
+.bm-burger-button {
+  position: fixed;
+  width: 36px;
+  height: 30px;
+  left: 36px;
+  top: 36px;
+  display: none;
+}
+a{
+
+}
+.bm-overlay {
+  background-color: #001d32 !important;
+}
+.bm-menu a{
+  color: #ffa400;
+  font-family: "Muli",sans-serif;
+  text-decoration: none;
+  width: 50%;
+
+}
+.bm-burger-bars {
+  background: #bebebf;
+}
+
+@media only screen
+and (min-device-width : 100px)
 and (max-device-width : 800px) {
   #video-text {
     background-color: rgba(0, 0, 0, 0.7);
@@ -700,5 +726,14 @@ and (max-device-width : 800px) {
 
   .infobar-pn {
     font-size: 14px;
+  }
+  .bm-burger-button {
+    display:block;
+  }
+  .header-section {
+    display: none;
+  }
+  header img {
+    width: 40vw;
   }
 }
