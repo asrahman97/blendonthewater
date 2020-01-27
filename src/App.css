@@ -682,6 +682,7 @@ and (max-device-width : 800px) {
 
   .leaf2 {
     width: 30vw;
+    transform: none;
   }
 
   .leaf3 {
