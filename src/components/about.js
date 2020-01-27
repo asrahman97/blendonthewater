@@ -9,7 +9,7 @@ class About extends Component {
           Blend on the Water, a place to eat, meet and greet. Mi Casa Es Su
           Casa.
         </h1>
-        <h4>
+        <p>
           We are a Latin fusion restaurant, presenting authentic cuisine
           inspired by all Latin countries. Well-known for our acclaimed Latin
           Fusion restaurant located on Vernon Blvd in Long Island City, we are
@@ -24,7 +24,7 @@ class About extends Component {
           Water's menu is our interpretation of Latin cuisine, and is inspired
           by all Latin countries. Come see for yourself why Blend on the Water
           is the ultimate dining experience.
-        </h4>
+        </p>
       </div>
     );
   }
