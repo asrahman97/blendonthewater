@@ -4,6 +4,7 @@ import About from './components/about'
 import InfoBar from './components/infoBar'
 import Gallery from './components/gallery'
 import GalleryGrid from './components/galleryGrid'
+import Header from './components/Header'
 
 class App extends React.Component {
 
@@ -31,7 +32,7 @@ class App extends React.Component {
             <a href='#reservations'><button>RESERVATIONS</button></a>
           </div>
         </div>
-        <Menu />
+        {/* <Menu /> */}
         <InfoBar />
         <About />
         <Gallery />
@@ -44,8 +45,7 @@ class App extends React.Component {
             4540 Center Blvd. Long Island City, NY, 11101 <br />
           </p>
         </div>
-        <Map />
-        <Footer />
+        {/* <Map /> */}
       </div>
     );
   }
