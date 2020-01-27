@@ -1,9 +1,9 @@
-import React, {Component} from "react";
+import React, { Component } from "react";
 
 class About extends Component {
   render() {
     return (
-      <div className="about-section">
+      <div className="about-section" id ='about'>
         <p>ABOUT OUR RESTAURANT</p>
         <h1>
           Blend on the Water, a place to eat, meet and greet. Mi Casa Es Su
