@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import About from './components/about'
 
 class App extends React.Component {
 
@@ -15,6 +16,9 @@ class App extends React.Component {
     return (
       <div className="App" >
 
+        <About />
+      
+        
       </div>
     );
   }
