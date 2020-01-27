@@ -1,11 +1,19 @@
 import React, { Component } from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faPhone } from "@fortawesome/free-solid-svg-icons";
+import { faClock } from "@fortawesome/free-solid-svg-icons";
+import { faTshirt } from "@fortawesome/free-solid-svg-icons";
+
+const contact = <FontAwesomeIcon icon={faPhone} />;
+const hours = <FontAwesomeIcon icon={faClock} />;
+const dresscode = <FontAwesomeIcon icon={faTshirt} />;
 
 class InfoBar extends Component {
   render() {
     return (
       <div className="infobar">
         <div className="infobar-address">
-          {/* <img src={Location} alt="" className="info-image" /> */}
+          <span className="icon-fa">{contact}</span>
           <h3 className="infobar-title">Contact Us</h3>
           <h3 className="infobar-h3">
             4540 Center Blvd. <br className="add-break" />
@@ -15,14 +23,14 @@ class InfoBar extends Component {
           </h3>
         </div>
         <div className="infobar-hours" id="hours">
-          {/* <img src={Hours} alt="" className="info-image" /> */}
+          <span className="icon-fa">{hours}</span>{" "}
           <h3 className="infobar-title">Hours</h3>
           <h3 className="infobar-h3">BRUNCH 11:00AM to 3:30PM</h3>
           <h3 className="infobar-h3">MIDDAY 3:30PM to 5:00PM</h3>
           <h3 className="infobar-h3">DINNER 5:00PM to 11:00PM</h3>
         </div>
         <div className="infobar-dresscode">
-          {/* <img src={Dresscode} alt="" className="info-image" /> */}
+          <span className="icon-fa">{dresscode}</span>{" "}
           <h3 className="infobar-title">Dress Code</h3>
           <h3 className="infobar-h3">
             No Tank Tops
