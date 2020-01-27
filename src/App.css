@@ -569,6 +569,14 @@ button:hover {
   background-color: #4c0610;
   box-shadow: 0 9px 18px 0 black;
 }
+
+/* MOBILE GALLERY */
+
+.mobile-gallery-section {
+  display: none;
+}
+
+
 footer {
   color:white;
   font-family: Muli, sans-serif;
@@ -588,6 +596,8 @@ footer button {
   color: inherit;
   background-color: #64b5bf;
 }
+
+
 
 @media only screen 
 and (min-device-width : 375px) 
@@ -699,5 +709,15 @@ and (max-device-width : 900px) {
 
   .infobar-pn {
     font-size: 14px;
+  }
+
+  .mobile-gallery-section {
+    display: block;
+    max-width: 100%;
+
+  }
+
+  .grid-wrapper {
+    display: none;
   }
 }

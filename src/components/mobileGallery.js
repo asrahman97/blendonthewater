@@ -1,4 +1,7 @@
 import React, { Component } from "react";
+import { Carousel } from 'react-responsive-carousel';
+import "react-responsive-carousel/lib/styles/carousel.min.css";
+
 
 import div1 from "../assests/home-background.jpg";
 import div2 from "../assests/home-background-5.jpg";
@@ -14,8 +17,35 @@ import div10 from "../assests/home-background-9.jpg";
 class MobileGallery extends Component {
   render() {
     return (
-      <div>
-        Sanity test
+      <div className='mobile-gallery-section'>
+        <Carousel
+          autoPlay
+        >
+                <div>
+                    <img src={div2} />
+                </div>
+                <div>
+                    <img src={div3} />
+                </div>
+                <div>
+                    <img src={div4} />
+                </div>
+                <div>
+                    <img src={div5} />
+                </div>
+                <div>
+                    <img src={div6} />
+                </div>
+                <div>
+                    <img src={div7} />
+                </div>
+                <div>
+                    <img src={div8} />
+                </div>
+                <div>
+                    <img src={div10} />
+                </div>
+            </Carousel>
       </div>
     )
   }
