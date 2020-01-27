@@ -1,6 +1,8 @@
 import React from 'react';
 import './App.css';
 import About from './components/about'
+import InfoBar from './components/infoBar'
+import Gallery from './components/gallery'
 
 class App extends React.Component {
 
@@ -16,7 +18,9 @@ class App extends React.Component {
     return (
       <div className="App" >
 
+        <InfoBar />
         <About />
+        <Gallery />
       
         
       </div>
