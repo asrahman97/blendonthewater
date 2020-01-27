@@ -16,6 +16,59 @@
 }
 
 
+
+/* ABOUT */
+
+.about-aside {
+  font-family: Muli;
+  font-size: 12px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.67;
+  letter-spacing: normal;
+  text-align: center;
+  color: #8b8b8b;
+  padding-bottom: 20px;
+
+}
+
+.about-title {
+  font-family: TimesNewRomanPS-MT;
+  font-size: 36px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.83;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffa400;
+  width: 60%;
+  margin: 0 auto;
+  padding-bottom: 20px;
+
+}
+
+.about-body {
+  color: #bebebf;
+  font-family: Muli;
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.11;
+  letter-spacing: normal;
+  text-align: center;
+  width: 60%;
+  margin: 0 auto;
+  padding-bottom: 20px;
+}
+
+.about-section {
+  padding: 60px 0px;
+}
+
+
 /* GALLERY  */
 
 .gallery-section {
