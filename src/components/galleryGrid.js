@@ -15,7 +15,7 @@ class GalleryGrid extends Component {
   render() {
     return (
       <div className='grid-wrapper'>
-       
+
         <div className="galleryGrid-section">
           <div className="div1">
             <img src={div1} className='gallery-img' />
@@ -81,10 +81,7 @@ class GalleryGrid extends Component {
             </div>
           </div>
           <div className="div10">
-            <img src={div10} className='gallery-img' /><div class="gallery-text">
-              <div class="text">Project Title</div>
-              <div class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </div>
-            </div>
+            <img src={div10} className='gallery-img' />
           </div>
         </div>
       </div>

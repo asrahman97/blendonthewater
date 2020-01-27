@@ -73,13 +73,14 @@ header {
   margin-top: 2%;
 }
 
-header h2 {
+header a {
   opacity: 76%;
   font-weight: bold;
   text-align: center;
   color: white;
-  font-size: 12px;
+  font-size: 16px;
   text-transform: uppercase;
+  text-decoration: none;
 }
 
 header img {

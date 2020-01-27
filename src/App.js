@@ -30,11 +30,7 @@ class App extends React.Component {
             frameborder="0">
           </iframe>
           <div id="video-text">
-<<<<<<< HEAD
             <h1>A place to eat, meet and greet</h1>
-=======
-            <h1>Innovative Solutions to boost your creative projects</h1>
->>>>>>> df20fbc144f9f7017d0f1d904c112c535dccfd62
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
             <a href='#reservations'><button>RESERVATIONS</button></a>
           </div>
