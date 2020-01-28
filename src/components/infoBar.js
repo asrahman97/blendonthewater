@@ -31,10 +31,10 @@ class InfoBar extends Component {
           </div>
         </div>
         <div className="infobar-hours" id="hours">
-          <div className="logo-name-wrapper">
+          <div className="logo-name-wrapper" id="logo-name-hours">
             {/*<span className="icon-fa">{hours}</span>{" "}*/}
-            <img className="icon" src={group}></img>
-            <h3 className="infobar-title">Hours</h3>
+            <img className="icon" id="hours-icon" src={group}></img>
+            <h3 className="infobar-title" id="hours-title">Hours</h3>
           </div>
           <div className="hours-wrapper">
             <h3 className="infobar-h3">BRUNCH 11:00AM to 3:30PM</h3>
@@ -49,7 +49,7 @@ class InfoBar extends Component {
             <h3 className="infobar-title">Dress Code</h3>
           </div>
           <div className="hours-wrapper">
-            <h3 className="infobar-h3">
+            <h3 className="infobar-h3" id="dress-code">
               No Tank Tops
             <br className="add-break" />
               No White T-Shirts
