@@ -1,12 +1,15 @@
 import React, { Component } from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faPhone } from "@fortawesome/free-solid-svg-icons";
-import { faClock } from "@fortawesome/free-solid-svg-icons";
-import { faTshirt } from "@fortawesome/free-solid-svg-icons";
+// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+// import { faPhone } from "@fortawesome/free-solid-svg-icons";
+// import { faClock } from "@fortawesome/free-solid-svg-icons";
+// import { faTshirt } from "@fortawesome/free-solid-svg-icons";
+import dressCode from '../assests/dress-code-web.svg';
+import group from '../assests/group-web.svg';
+import hour from '../assests/hour-web.svg';
 
-const contact = <FontAwesomeIcon icon={faPhone} />;
-const hours = <FontAwesomeIcon icon={faClock} />;
-const dresscode = <FontAwesomeIcon icon={faTshirt} />;
+// const contact = <FontAwesomeIcon icon={faPhone} />;
+// const hours = <FontAwesomeIcon icon={faClock} />;
+// const dresscode = <FontAwesomeIcon icon={faTshirt} />;
 
 class InfoBar extends Component {
   render() {
@@ -14,7 +17,8 @@ class InfoBar extends Component {
       <div className="infobar" id="info">
         <div className="infobar-address">
           <div className="logo-name-wrapper">
-            <span className="icon-fa">{contact}</span>
+            {/*<span className="icon-fa">{contact}</span>*/}
+            <img className="icon" src={dressCode}></img>
             <h3 className="infobar-title">Contact Us</h3>
           </div>
           <div className="hours-wrapper">
@@ -28,7 +32,8 @@ class InfoBar extends Component {
         </div>
         <div className="infobar-hours" id="hours">
           <div className="logo-name-wrapper" id="logo-name-hours">
-            <span className="icon-fa" id="hours-icon">{hours}</span>{" "}
+            {/*<span className="icon-fa">{hours}</span>{" "}*/}
+            <img className="icon" id="hours-icon" src={group}></img>
             <h3 className="infobar-title" id="hours-title">Hours</h3>
           </div>
           <div className="hours-wrapper">
@@ -39,7 +44,8 @@ class InfoBar extends Component {
         </div>
         <div className="infobar-dresscode">
           <div className="logo-name-wrapper">
-            <span className="icon-fa">{dresscode}</span>{" "}
+            {/*<span className="icon-fa">{dresscode}</span>{" "}*/}
+            <img className="icon" src={hour}></img>
             <h3 className="infobar-title">Dress Code</h3>
           </div>
           <div className="hours-wrapper">

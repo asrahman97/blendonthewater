@@ -353,9 +353,14 @@ button:hover {
   color: #64b5bf;
 }
 
+
 .icon-fa {
   color: #64b5bf;
   font-size: 1.5rem;
+}
+
+.icon {
+  width:6vw;
 }
 
 /* ABOUT */
@@ -633,14 +638,21 @@ footer button {
   background-color: #64b5bf;
 }
 
-@media only screen and (min-device-width: 100px) and (max-device-width: 800px) {
+.bm-burger-button {
+  display: none;
+}
+
+
+@media only screen
+and (min-device-width : 100px)
+and (max-device-width : 800px) {
   .bm-burger-button {
     position: fixed;
     width: 36px;
     height: 30px;
     left: 36px;
     top: 36px;
-    display: none;
+    display:block;
   }
 
   .bm-overlay {
@@ -846,9 +858,6 @@ footer button {
     pointer-events: auto;
   }
 
-  .bm-burger-button {
-    display: block;
-  }
   .header-section {
     display: none;
   }
