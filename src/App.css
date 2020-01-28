@@ -835,6 +835,7 @@ and (max-device-width : 800px) {
   .infobar-title {
     font-size: 18px;
     margin: 0;
+    font-weight: 500;
   }
 
   .infobar-h3 {
