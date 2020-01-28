@@ -326,10 +326,8 @@ button:hover {
   color: #64b5bf;
 }
 
-.icon-fa {
-  color: #64b5bf;
-  font-size: 1.5rem;
-
+.icon {
+  width:6vw;
 }
 
 /* ABOUT */
