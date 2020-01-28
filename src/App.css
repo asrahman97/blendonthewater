@@ -599,34 +599,37 @@ footer button {
   background-color: #64b5bf;
 }
 
+.bm-burger-button {
+  display: none;
+}
 @media only screen
 and (min-device-width : 100px)
 and (max-device-width : 800px) {
-  
+
   .bm-burger-button {
     position: fixed;
     width: 36px;
     height: 30px;
     left: 36px;
     top: 36px;
-    display: none;
+    display:block;
   }
 
   .bm-overlay {
     background-color: #001d32 !important;
   }
-  
+
   .bm-menu a{
     color: #ffa400;
     font-family: "Muli",sans-serif;
     text-decoration: none;
     width: 50%;
   }
-  
+
   .bm-burger-bars {
     background: #bebebf;
   }
-  
+
   #video-text {
     background-color: rgba(0, 0, 0, 0.7);
     padding: 8px;
@@ -813,14 +816,11 @@ and (max-device-width : 800px) {
   #ytplayer {
     pointer-events: auto;
   }
-  
-  .bm-burger-button {
-    display:block;
-  }
+
   .header-section {
     display: none;
   }
-  
+
   header img {
     width: 40vw;
   }
@@ -839,7 +839,7 @@ and (max-device-width : 800px) {
   .gallery-title {
     font-size: 24px;
   }
-  
+
   .gallery-body {
     width: 90%;
   }
