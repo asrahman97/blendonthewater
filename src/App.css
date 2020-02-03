@@ -202,6 +202,7 @@ header img {
   font-weight: bold;
   font-family: Muli, sans-serif;
   margin-bottom: 1%;
+  color: orange;
 }
 
 .menuitem > .menu-item-desc {
@@ -416,7 +417,8 @@ button:hover {
 
 .gallery-section {
   background-color: #64b5bf;
-  padding: 40px 20px;
+  padding-bottom: 30px;
+  width: 100vw;
 }
 
 .gallery-title {
@@ -636,6 +638,8 @@ footer button {
   border: none;
   color: inherit;
   background-color: #64b5bf;
+  border-radius: 25px;
+  margin-bottom: 4%;
 }
 
 .bm-burger-button {
@@ -739,6 +743,7 @@ and (max-device-width : 800px) {
     margin-top: 5%;
     margin-bottom: 5%;
     padding: 10px;
+    color: black;
   }
 
   .midday-menu-grid-wrapper {

@@ -6,13 +6,12 @@ import Instagram from '../assests/igicon.png'
 export default function Header() {
   return (
     <footer>
-      <div id = 'reservations'>
-        <h1>What are you waiting for?</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      <div id='reservations'>
+        <h1>What are you waiting for? <br /> Book Now!</h1>
         <button>RESERVATION</button>
       </div>
-      <p>© 2020 by Sam Weinstein, Ash Rahman, Abir Tawfique. All rights reserved.</p>
-      <div className ="social social-bottom">
+      <p>© 2020 <br /> Developed by Ash Rahman, Abir Tawfique, Sam Weinstein. <br /> Designed by Shanshan Wang, Yanli Yin, Josh Yu. <br /> All rights reserved.</p>
+      <div className="social social-bottom">
         <img src={Facebook}></img>
         <img src={Twitter}></img>
         <img src={Instagram}></img>

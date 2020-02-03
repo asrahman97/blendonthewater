@@ -82,6 +82,9 @@ class GalleryGrid extends Component {
           </div>
           <div className="div10">
             <img src={div10} className='gallery-img' />
+            <div className="gallery-text">
+              <button className="see-more-bttn text">See More</button>
+            </div>
           </div>
         </div>
       </div>
