@@ -1,25 +1,23 @@
 import React from 'react'
-import { slide as Menu } from 'react-burger-menu'
-
 import Logo from '../assests/blendlogo.png'
 import Twitter from '../assests/twittericon.png'
 import Facebook from '../assests/fbicon.png'
 import Instagram from '../assests/igicon.png'
+import { slide as Menu } from 'react-burger-menu'
+
 
 export default function Header() {
   return (
     <div>
       <Menu>
-        <h2><a href="#video">Home</a></h2>
-        <h2><a href="#menu">Menu</a></h2>
-        <h2><a href="#info">Hours</a></h2>
-        <h2><a href="#about">About</a></h2>
-        <h2><a href="#gallery">Gallery</a></h2>
-        <h2><a href="#reservations">Reservation</a></h2>
-
+        <a className="menu-item" href="#video">Home</a>
+        <a className="menu-item" href="#menu">Menu</a>
+        <a className="menu-item" href="#info">Hours</a>
+        <a className="menu-item" href="#about">About</a>
+        <a className="menu-item" href="#gallery">Gallery</a>
+        <a className="menu-item" href="#reservations">Reservations</a>
       </Menu>
       <header>
-
         <div className="header-section">
           <h2><a href="#video">Home</a></h2>
           <h2><a href="#reservations">Reservation</a></h2>
