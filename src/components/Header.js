@@ -10,12 +10,14 @@ export default function Header() {
   return (
     <div>
       <Menu>
+        <img src={Logo} className="bm-logo"></img>
         <a className="menu-item" href="#video">Home</a>
         <a className="menu-item" href="#menu">Menu</a>
         <a className="menu-item" href="#info">Hours</a>
         <a className="menu-item" href="#about">About</a>
         <a className="menu-item" href="#gallery">Gallery</a>
         <a className="menu-item" href="#reservations">Reservations</a>
+        <p className="bm-credits"><span className="underlined">Developed by</span> <br /> Ash Rahman <br /> Abir Tawfique <br /> Sam Weinstein. <br /> <span className="underlined">Designed by </span><br />Shanshan Wang <br /> Yanli Yin <br /> Josh Yu.</p>
       </Menu>
       <header>
         <div className="header-section">
